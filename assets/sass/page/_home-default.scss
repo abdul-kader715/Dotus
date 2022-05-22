@@ -1046,15 +1046,16 @@
 
         .appoinment-right {
             .form-field {
-               
-                &.s2{
+
+                &.s2 {
                     width: 100%;
 
                     .form-control-gender,
-                    .form-control-age{
+                    .form-control-age {
                         margin-left: 15px;
                         flex-basis: 25%;
-                        select{
+
+                        select {
                             width: 100%;
                         }
                     }
@@ -1096,7 +1097,7 @@
                 }
             }
 
-            
+
             .form-control-age,
             .form-control-gender,
             .form-control-choose-department {

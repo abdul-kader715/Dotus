@@ -737,48 +737,82 @@
                         </div>
                         <div class="col-lg-6 col-12">
                             <div class="appoinment-right">
-                                <form>
-                                    <input class="form-control-name mr-20" type="text" placeholder="Full Name">
-                                    <input class="form-control-mail" type="email" placeholder="Email">
-                                    <input class="form-control-number mr-20" type="number" placeholder="Phone No.">
-                                    <div class="form-control-age mr-20">
-                                        <select name="service" class="form-control valid" aria-required="true"
-                                            aria-invalid="false">
-                                            <option value="0">Age</option>
-                                            <option value="1">22</option>
-                                            <option value="2">23</option>
-                                            <option value="3">24</option>
-                                            <option value="4">25</option>
-                                            <option value="5">26</option>
-                                            <option value="6">27</option>
-                                            <option value="7">28</option>
-                                            <option value="8">29</option>
-                                            <option value="9">30</option>
-                                            <option value="10">31</option>
-                                            <option value="11">32</option>
-                                            <option value="12">33</option>
-                                        </select>
+                                <form method="post" class="contact-validation-active" id="consultancy-form">
+                                    <div class="row">
+                                        <div class="form-field col-lg-6">
+                                            <input class="form-control-name " type="text" placeholder="Full Name"
+                                                name="name" id="name">
+                                        </div>
+                                        <div class="form-field col-lg-6">
+                                            <input class="form-control-mail" type="email" placeholder="Email"
+                                                name="email" id="email">
+                                        </div>
+                                        <div class="form-field col-lg-12">
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <input class="form-controls form-control-number " name="phone"
+                                                        type="number" placeholder="Phone No.">
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="row">
+                                                        <div class="form-control-age col-lg-6">
+                                                            <select name="age" class="form-control valid">
+                                                                <option value="0" disabled="disabled" selected="">Age
+                                                                </option>
+                                                                <option value="1">22</option>
+                                                                <option value="2">23</option>
+                                                                <option value="3">24</option>
+                                                                <option value="4">25</option>
+                                                                <option value="5">26</option>
+                                                                <option value="6">27</option>
+                                                                <option value="7">28</option>
+                                                                <option value="8">29</option>
+                                                                <option value="9">30</option>
+                                                                <option value="10">31</option>
+                                                                <option value="11">32</option>
+                                                                <option value="12">33</option>
+                                                            </select>
+                                                        </div>
+
+                                                        <div class="form-controls form-control-gender col-lg-6">
+                                                            <select name="gender" class="form-control valid"
+                                                                aria-required="true" aria-invalid="false">
+                                                                <option value="0" disabled="disabled" selected="">Gender
+                                                                </option>
+                                                                <option value="1">Male</option>
+                                                                <option value="2">Female</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-controls form-control-choose-department">
+                                            <select name="service" class="form-control valid" aria-required="true"
+                                                aria-invalid="false">
+                                                <option value="0" disabled="disabled" selected="">Choose Department
+                                                </option>
+                                                <option value="1">Biotechnology</option>
+                                                <option value="2">Facility Services & Supplies</option>
+                                                <option value="2">Government & Education</option>
+                                                <option value="2">Healthcare Providers</option>
+                                                <option value="2">Management Consulting</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="submit-area">
+                                                <button type="submit" class="theme-btn">Book Appoinment</button>
+                                                <div id="loader">
+                                                    <i class="ti-reload"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix error-handling-messages">
+                                            <div id="success">Thank you</div>
+                                            <div id="error"> Error occurred while sending email. Please try again later.
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="form-control-gender">
-                                        <select name="service" class="form-control valid" aria-required="true"
-                                            aria-invalid="false">
-                                            <option value="0">Gender</option>
-                                            <option value="1">Male</option>
-                                            <option value="2">Female</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-control-choose-department">
-                                        <select name="service" class="form-control valid" aria-required="true"
-                                            aria-invalid="false">
-                                            <option value="0">Choose Department</option>
-                                            <option value="1">Biotechnology</option>
-                                            <option value="2">Facility Services & Supplies</option>
-                                            <option value="2">Government & Education</option>
-                                            <option value="2">Healthcare Providers</option>
-                                            <option value="2">Management Consulting</option>
-                                        </select>
-                                    </div>
-                                    <button class="form-control-btn" type="submit">Book Appoinment</button>
                                 </form>
                             </div>
                         </div>
