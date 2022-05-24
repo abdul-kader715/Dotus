@@ -4897,6 +4897,7 @@ img {
   border-radius: 50px;
   background: transparent;
   margin-bottom: 20px;
+  color: #736A98;
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
 }
@@ -4916,18 +4917,9 @@ img {
   }
 }
 
-.wpo-service-section .service-left .service-left-wrap .service-single-btn a {
-  color: #736A98;
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
-}
-
 .wpo-service-section .service-left .service-left-wrap .service-single-btn:hover {
   background: #72569D;
   border: 2px solid transparent;
-}
-
-.wpo-service-section .service-left .service-left-wrap .service-single-btn:hover a {
   color: #fff;
 }
 
