@@ -4816,6 +4816,12 @@ img {
   z-index: 1;
 }
 
+@media (max-width: 767px) {
+  .wpo-service-section {
+    padding-bottom: 60;
+  }
+}
+
 .wpo-service-section .service-shape-1 {
   position: absolute;
   right: 0;
@@ -4827,8 +4833,59 @@ img {
   fill: #F3C4AA;
 }
 
+@media (max-width: 1199px) {
+  .wpo-service-section .service-left {
+    height: 1086px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .wpo-service-section .service-left {
+    height: 1186px;
+  }
+}
+
+@media (max-width: 991px) {
+  .wpo-service-section .service-left {
+    height: 1050px;
+  }
+}
+
+@media (max-width: 767px) {
+  .wpo-service-section .service-left {
+    height: 100%;
+  }
+}
+
 .wpo-service-section .service-left .wpo-section-title {
   text-align: left;
+}
+
+@media (max-width: 1199px) {
+  .wpo-service-section .service-left .wpo-section-title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1399px) {
+  .wpo-service-section .service-left .wpo-section-title h2 {
+    font-size: 39px;
+    margin-right: 86px;
+    line-height: 68px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .wpo-service-section .service-left .wpo-section-title h2 {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .wpo-service-section .service-left .wpo-section-title h2 {
+    line-height: 55px;
+  }
 }
 
 .wpo-service-section .service-left .service-left-wrap .service-single-btn {
@@ -4842,6 +4899,21 @@ img {
   margin-bottom: 20px;
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
+}
+
+@media (max-width: 1199px) {
+  .wpo-service-section .service-left .service-left-wrap .service-single-btn {
+    margin: 0 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .wpo-service-section .service-left .service-left-wrap .service-single-btn {
+    margin: 0;
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
 
 .wpo-service-section .service-left .service-left-wrap .service-single-btn a {
@@ -4863,14 +4935,52 @@ img {
   margin-right: 20px;
 }
 
+@media (max-width: 1199px) {
+  .wpo-service-section .service-left .service-left-wrap .mr-20 {
+    margin-right: 0;
+  }
+}
+
 .wpo-service-section .service-right {
   position: absolute;
-  top: 50%;
+  top: 52%;
   right: -13%;
   z-index: 1;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   width: 660px;
+}
+
+@media (max-width: 1490px) {
+  .wpo-service-section .service-right {
+    right: -20%;
+  }
+}
+
+@media (max-width: 1399px) {
+  .wpo-service-section .service-right {
+    right: -26%;
+  }
+}
+
+@media (max-width: 1199px) {
+  .wpo-service-section .service-right {
+    right: -13%;
+    top: 67.6%;
+  }
+}
+
+@media (max-width: 991px) {
+  .wpo-service-section .service-right {
+    left: 50%;
+    top: 70.7%;
+  }
+}
+
+@media (max-width: 767px) {
+  .wpo-service-section .service-right {
+    display: none;
+  }
 }
 
 .wpo-service-section .service-right .service-right-wrap {
@@ -4882,6 +4992,12 @@ img {
   position: relative;
   z-index: 1;
   margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+  .wpo-service-section .service-right .service-right-wrap .service-right-img-1 {
+    display: none;
+  }
 }
 
 .wpo-service-section .service-right .service-right-wrap .service-right-img-1 img {
@@ -4904,6 +5020,12 @@ img {
 .wpo-service-section .service-right .service-right-wrap .service-img-2 {
   position: relative;
   z-index: 1;
+}
+
+@media (max-width: 767px) {
+  .wpo-service-section .service-right .service-right-wrap .service-img-2 {
+    display: none;
+  }
 }
 
 .wpo-service-section .service-right .service-right-wrap .service-img-2 img {
@@ -4935,6 +5057,12 @@ img {
   z-index: 1;
   height: 399px;
   margin-left: 30px;
+}
+
+@media (max-width: 767px) {
+  .wpo-service-section .service-right .service-right-wrap-2 .service-img-3 {
+    display: none;
+  }
 }
 
 .wpo-service-section .service-right .service-right-wrap-2 .service-img-3 img {
@@ -5003,6 +5131,12 @@ img {
   left: -44px;
   bottom: -173px;
   z-index: -1;
+}
+
+@media (max-width: 767px) {
+  .wpo-service-section .service-shape-2 {
+    display: none;
+  }
 }
 
 .wpo-team-section {
