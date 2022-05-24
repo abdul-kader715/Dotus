@@ -4,6 +4,10 @@
 
     .wpo-about-wrap {
         text-align: start;
+        @media (max-width:991px) {
+            margin-bottom: 70px;
+        }
+
 
         .wpo-about-img {
             z-index: -1;
@@ -15,7 +19,9 @@
 
         .wpo-about-exprience {
             display: flex;
-
+            @media (max-width:450px) {
+                justify-content: center;
+            }
             .tp-fun-fact-grids {
                 margin-top: 17px;
                 margin-left: 22px;
@@ -29,7 +35,10 @@
                         font-size: 90px;
                         font-weight: 700;
                         line-height: 100px;
-
+                        @media (max-width:1199px) {
+                            font-size: 60px;
+                            line-height: 80px;
+                        }
                     }
 
                     i {
@@ -54,6 +63,9 @@
                 margin-left: 55px;
                 position: relative;
                 z-index: 1;
+                @media (max-width:450px) {
+                    display: none;
+                }
 
                 &::before {
                     position: absolute;
